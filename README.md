@@ -9,8 +9,6 @@ In today’s data-driven environment, customer reviews are a powerful source of 
 
 This project builds an end-to-end sentiment analysis pipeline to convert raw customer reviews into actionable business insights using Machine Learning and Business Intelligence tools.
 
----
-
 ## Business Problem
 
 Organizations struggle to:
@@ -66,8 +64,6 @@ Key Observations:
 - Moderate performance on negative sentiment  
 - Weak performance on neutral sentiment due to class imbalance  
 
----
-
 ## Power BI Dashboard
 
 An interactive dashboard was developed to visualize:
@@ -109,17 +105,6 @@ This solution enables:
 - Machine Learning: Scikit-learn  
 - Visualization: Power BI  
 
-## Project Structure
-
-Customer-Reviews-Sentiment-Analysis/
-│
-├── notebooks/
-├── outputs/
-├── dashboard/
-├── report/
-├── images/
-└── README.md
-
 ## Limitations & Future Improvements
 
 Limitations:
@@ -132,13 +117,7 @@ Future Enhancements:
 - Real-time sentiment tracking  
 - Integration with business systems  
 
----
-
 ## Author
 
 Himanshu Chauhan  
 Business Analytics | Machine Learning | Power BI  
-
-
-
----
