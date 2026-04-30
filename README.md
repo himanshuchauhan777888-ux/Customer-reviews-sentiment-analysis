@@ -23,8 +23,6 @@ This project addresses these challenges by:
 - Enabling trend analysis through dashboards  
 - Supporting data-driven business decisions  
 
----
-
 ## Solution Approach
 
 The solution follows a structured analytics pipeline:
@@ -34,15 +32,11 @@ The solution follows a structured analytics pipeline:
 - Sampled ~100K records for efficient processing  
 - Handled missing values and cleaned dataset  
 
----
-
 ### 2. NLP & Text Processing
 - Lowercasing and noise removal  
 - Stopword removal (NLTK)  
 - Lemmatization  
 - Text normalization  
-
----
 
 ### 3. Feature Engineering
 - Sentiment labels (Positive, Neutral, Negative)  
@@ -50,20 +44,14 @@ The solution follows a structured analytics pipeline:
 - Helpfulness ratio  
 - Time-based features (date, weekend flag)  
 
----
-
 ### 4. Text Vectorization
 - TF-IDF Vectorization (~3000 features)  
 - Converts text into numerical format for modeling  
-
----
 
 ### 5. Model Development
 - Algorithm: Logistic Regression  
 - Train-Test Split: 80/20  
 - Objective: Classify sentiment  
-
----
 
 ### 6. Model Evaluation
 
@@ -97,18 +85,14 @@ An interactive dashboard was developed to visualize:
 ### Customer Behavior Insights
 - Review length vs helpfulness  
 - Weekend vs weekday trends  
-- Sentiment distribution over time  
-
----
-
+- Sentiment distribution over time
+- 
 ## Key Business Insights
 
 - Approximately 88% of reviews are positive, indicating high customer satisfaction  
 - Longer reviews tend to receive more helpful votes  
 - Sentiment trends remain stable over time  
 - Positive sentiment correlates with product demand  
-
----
 
 ## Business Impact
 
@@ -118,16 +102,12 @@ This solution enables:
 - Customer experience improvement  
 - Data-driven decision making  
 
----
-
 ## Tech Stack
 
 - Python: Pandas, NumPy  
 - NLP: NLTK  
 - Machine Learning: Scikit-learn  
 - Visualization: Power BI  
-
----
 
 ## Project Structure
 
@@ -139,8 +119,6 @@ Customer-Reviews-Sentiment-Analysis/
 ├── report/
 ├── images/
 └── README.md
-
----
 
 ## Limitations & Future Improvements
 
